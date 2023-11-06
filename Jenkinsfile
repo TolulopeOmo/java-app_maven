@@ -25,7 +25,7 @@ pipeline {
             steps {
                 script {
                     echo "deploying"
-                    gv.buildImageDockerhub()
+                    gv.buildImage()
                 }
             }
         }
